@@ -1,0 +1,293 @@
+Database Structure for Complaint Redressal System – CERC, Ahmedabad
+
+1. Complainant Profile Details
+
+Each complaint must be linked to a complainant. The following fields should be captured:
+
+a) Personal Information
+    * Full Name (text)
+    * Age Range (dropdown: <18, 18–30, 31–45, 46–60, >60)
+    * Gender (Male / Female / Other / Prefer not to say)
+    * Government ID (Optional):
+        o Aadhar Number (text, optional & masked)
+        o PAN Number (text, optional & masked)
+
+b) Location Details
+    * State (default: Gujarat, editable for other states)
+    * District (dropdown – select from Gujarat districts)
+    * Taluka (text)
+    * City/Village (text)
+    * Pin code (numeric Automatic)
+
+c) Contact Information
+    * Phone Number (mandatory, numeric)
+    * What's app Number (If different)
+    * Email ID (optional)
+
+2. Complaint Data Points
+
+Each complaint entry should capture the following:
+
+a) Basic Complaint Metadata
+    * Date of Complaint
+    * Mode of Complaint Received (Phone / WhatsApp / Email / Letter / In-person / Website)
+    * Language (Gujarati / Hindi / English / Other)
+
+b) Complaint Details
+    * Complaint Category/ Sector (dropdown – see categories below)
+    * Sub category
+    * Complaint Title / Summary / Detailed Description
+
+c) Opposite Party Details
+    * Name of Company/ Opposite party (dropdown – see categories below) and blank
+    * Contact Address of Opposite Party
+    * Phone Number of Oppostite party
+    * Email Id
+    * Monetary Involvement (if any) (numeric – value in INR)
+
+c) Supporting Documents Upload (Optional but recommended)
+    * Bill / Invoice
+    * Warranty Card
+    * Purchase Proof
+    * Communication Screenshots
+    * Photos / Images
+    * Service Center Notes / Reports
+    * Written Applications
+    * Any Legal Notices or Responses
+
+3. Categories & Tags of Complaints (Extracted from previous image)
+
+a) Main Categories (Dropdown Selection)
+    * Agriculture
+    * Airlines
+    * Banking Service
+    * Cable TV
+    * Courier Service
+    * Cyber Crime
+    * Credit Card
+    * Court Procedure
+    * Defective Goods
+    * Drugs & Medicines
+    * E Commerce
+    * Educational Institute
+    * Electrical & Elect. Appliances
+    * Electricity Boards
+    * Entertainment
+    * Finance and Investment
+    * Food (Other than Dairy Products)
+    * General Category
+    * Government Services*
+    * Hotels & Restaurants
+    * Internet Services
+    * Insurance
+    * Interior and Furniture
+    * Jewellery & Ornaments
+    * LPG & Petrol
+    * Mobile Handset
+    * Mobile Services
+    * Mutual Fund
+    * Non CPA
+    * Postal Services
+    * Railways
+    * Real Estate
+    * Telephones
+    * Transport
+    * Tours & Travels
+    * Visa Consultancy
+    * Vehicles
+    * Vacation Club
+    * Weight & Measures
+
+4. Extracted Questions (from images)
+
+Category: Advocate
+- Advocate is not giving proper reply of case status , What to do?
+- Advocate is not attending case as on court date, What to do?
+- Payment was done for case filling but not filling case and giving time & time, What to do?
+
+Category: Agriculture
+- Agro shopkeeper is charging more price than MRP for Fertilizer, What to do?
+- Agro shopkeeper is forcing to buy fertilizer, What to do?
+- Seeds are not prpoer so crop was failed? What to do?
+- After using pesticide crop was failed, What to do?
+
+Category: Airlines
+- Cancelled ticket refund was not received, What to do?
+- Delay of Flight, What to do?
+- Agent is not refunding cancelled ticket refund, what to do?
+
+Category: Banking Services
+- Bank is not issuing cheque book/ passbook, What to do?
+- Cheque was deposited in bank but amount was not credited in account?
+- Bank has charged charges for non maintain of minimum balance, What to do?
+- Amont was debited from account but cash was not received from ATM?
+- Delay in resolving of ATM cash not received complaint?
+- without any reason cheque disowner by the bank in spite of having sufficient balance in account.
+- Bank has delivered credit card through post but PIN number not received
+- for cash withdraw wait for three hours as staff is not working properly.
+- Bank has sanction the loan but not given.
+- ATM card was blocked due to wrong pin, What to do?
+- ATM card was blocked due to wrong pin. Wht to do?
+- Non credit amount in account and not given proper replay
+- Bank wrongly charged the amount from the Salary account. What to do?
+- bank has deducted the amount and issued the Policy without any instruction . What to do?
+
+Category: Cable TV
+- dish TV purchased before 5 days there is no signal available.
+- cannot see any channels other than Doordarshan
+- Cable operator is not giving proper service. Rude behaviour.
+
+Category: Cinema
+- In Cinema Hall drinking water is not allowed? What to do?
+- In Cinema Hall they are charging more price than MRP for cold drinks , waters and food packets.
+- Alongwith tickets they are compulsory forcing viewers to take food coupons
+
+Category: Courier Service
+- Courier company is refusing to give home delivery of parcel on the ground that the place is far away from their office
+- Courier was not delivered packet on the specified day, late delivery of packts/ parcels
+- Parcel/Packet was received in damaged condition, What to do?
+- Parcel /Packet was received but item was lost?
+
+Category: Court Procedure
+- Case filed before the Consumer forum. The order was passed in favor. But theOpposite party is not complying with the court order.
+- Case filling fees related issue.
+- Wanted the address of Consumer Forum.
+- wanted Consumer Related information such as who can file a complaint, in Which Forum etc.
+- Wants to know the process for filling of complaint in consumer forum.
+- Wants to know the case status of case.
+- Wants to know the procedure for filling of case on E dakhil website.
+- Wanted to know appeal period in NCDRC to appeal against the order of State commission.
+
+Category: Credit Cards
+- Credit card bill related complaint.
+- Credit card issued without consent.
+- Credit card payment was done but late payment charges demanding.
+- Credit card was received but PIN number was not received.
+- Cerdit card was lost what to do?
+- Credit card Bill was not received on time.
+
+Category: Electrical & Electronic App.
+- Product is under warraanty but Service dealer not giving proper service.
+- Product was purchased beofre week but it is not working.
+- Product was received in damaged condition.
+- Product was under warranty but company said parts are not available.
+- Ro system is not working AMC was given but not providing service.
+- Product was repaired three or four times but not working. Product was manufactured defect.
+
+Category: Electricity Boards
+- Wants address of Consumer forum of PGVCL/MGVCL/UGVCL/DGVCL
+- Energy bill related complaint wher to do?
+- Power cut related complaint.
+- Hanging vij wire related issue
+
+Category: Finance & Loan
+- Loan interest rate related issue.
+- Loan Emi was increased related issue.
+- Late fees and Charges related issue
+
+Category: Food
+- In Hotel and restaurant unhygienic food was given.
+- Hotel and Resturtans are charging more price than MRP.
+- wants information about where to do complaint for stale food
+
+Category: General Category
+- Information calls regarding wants address of Government Department, Nigam and other company.
+- Government Scheme related information wants.
+
+Category: General Category
+- Information calls regarding wants address of Government Department, Nigam and other company.
+- Government Scheme related information wants.
+- Wants information about State Consumer Helpline and toll free number related.
+
+Category: Government Services
+- On NFSA APL/ BPL/AAY Card what type of food grain is available?
+- Card is under APL category, but it has not covered under NFSA scheme. What to do?
+- Ration shopkeeper do not open ration shop on time and regularly.
+- filled form for Maa Annapurna Yojana before a year but till date name is not in the NFSA list.
+- Shopkeeper said that stock was not received, when stock was received they can start.
+- Shopkeeper is not giving food grain as per rules.
+- Wants to know the procedure for increase/ reduce the family member name in the ration card.
+- Wants to know the procedure for making of new ration card.
+- One Nation one Ration scheme related information wants.
+- Wants to know the procedure for making of new BPL ration card.
+
+Category: Hotels & Restaurtants
+- Hotel and Resturtans are charging more price than MRP.
+
+Category: Housing & Builder
+- builder is not givig possesssion as per promised date.
+- Builder is not providing facitlity as per promised.
+- Poor Construction.
+
+Category: Internet Services
+- Breakdown of Internet Services.
+
+Category: Internet Services (Continued)
+- Not resolving internet complaint on time.
+- After cancellation request not refunding remaining amount.
+
+Category: Investors
+- Not received amount after the maturity date.
+- Company was closed so fixed deposit amount was not received.
+
+Category: Jewellery & Ornaments
+- Jeweller is selling gold ornaments without Hallmark.
+- Jeweller is not giving cash memo for purchased ornaments.
+
+Category: LPG PNG & Petrol
+- Phone number of Gas agency is continuously busy. When trying after some time, no one picks up the phone.
+- Gas agency is compelling to purchase hot plate from them only
+- Gas agency is forcing to take accessories from him at the time of taking new gas connection.
+- Gas agency is doing black marketing of LPG gas cylinder
+- Gas Agency is giving late delivery of gas cylinder
+- At the time of delivery of gas cylinder weight is not carried out by agency people despite demanding.
+- Delivery boy is demanding more amount than bill amount for LPG gas refill.
+
+Category: Mobile Handsets
+- Newly purchased mobile is not working properly.
+- Mobile handset is under warranty but service dealer is not repair the Handset.
+- Mobile handset was purchased and when opened box, Handset is defective.
+
+Category: Mobile services
+- Deductions from prepaid account balance of Idea card. No information. What can be the reason?
+- what can be done for arbitrary deduction from balance towards Value Added Services which never activated.
+- Recharge was done but amount was not received in SIM card.
+- SIM card was blocked without any intimation.
+- Scheme was not received as per recharge done.
+- By mistake recharge was done in another person SIM card. What to do?
+
+Category: Municipal Corporation
+- Drainage over flowing related complaint.
+
+Category: Non CPA
+- Company is not giving salary for the last month.
+- Any complaint regarding business purpose.
+
+Category: Postal Service
+- Registered post/Speed post has not delivered as per address.
+- Post office saving account/ money order related complaint
+
+Category: Railways
+- Cancelled ticket refund was not received.
+- Train was cancelled without any intimation.
+- Train Arrival/depature time related complaint.
+
+Category: Telephones
+- BSNL land line service is not working.
+
+Category: Telephones (Continued)
+- BSNL land line complaint was not resolved.
+
+Category: Transport Tours & Travels
+- Tours Operator is not giving facility as per promised as the time of booking tour.
+- Cancelled tour refund was not received.
+- Transport was booked but not reached as per booking time.
+
+Category: Vehicles
+- Newly purchased Car/bike is not working properly.
+- Service dealer is not doing proper service for car /bike during warranty period
+- Car/Bike is damaged during given for service.
+
+Category: Weights & Measures
+- Shopkeeper/ Merchant is charging more price than MRP
+- Merchant is not relplacing purchased product.
